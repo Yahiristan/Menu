@@ -147,6 +147,14 @@ header .image-text .header-text{
     transition: var(--trans03);
 }
 
+.sidebar ~ .Inicio {
+    width: calc(100% - 250px);
+}
+
+.sidebar.close ~ .Inicio {
+    width: calc(100% - 90px);
+}
+
 .sidebar.close header .toggle{
     transform: translateY(-50%);
 }
